@@ -3,6 +3,7 @@ const path = require('path');
 module.exports = {
   entry: './src/index.ts',
   output: {
+    globalObject: 'this',
     library: 'styled-components-helpers',
     libraryTarget: 'umd',
     path: path.join(__dirname, 'dist'),
