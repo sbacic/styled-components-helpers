@@ -12,7 +12,7 @@ Helpers for handling props in styled-components.
     const Element = styled.div`
       color: black;
 
-      ${has('attribute', 'alternate')`
+      ${has('alternate')`
         color: blue;
       `}
 
