@@ -4,7 +4,7 @@ Helpers for handling props in styled-components.
 
 ## Installation
 
-`yarn add sbacic/styled-components-helpers`
+`yarn add @sbacic/styled-components-helpers`
 
 ## Example
 
