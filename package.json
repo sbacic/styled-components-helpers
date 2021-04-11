@@ -1,6 +1,6 @@
 {
   "name": "styled-components-helpers",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Helpers for handling props in styled-components.",
   "main": "./dist/index.js",
   "license": "MIT",
@@ -10,7 +10,8 @@
     "build": "yarn run webpack",
     "test": "jest",
     "prettier": "prettier src",
-    "lint": "eslint 'src/**/*.{js,ts,tsx}'"
+    "lint": "eslint 'src/**/*.{js,ts,tsx}'",
+    "prepack": "yarn install --ignore-scripts && yarn clean && yarn build"
   },
   "repository": {
     "type": "git",
