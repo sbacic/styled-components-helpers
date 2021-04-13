@@ -5,6 +5,9 @@
   "main": "./dist/index.js",
   "license": "MIT",
   "private": false,
+  "files": [
+    "dist/"
+  ],
   "scripts": {
     "clean": "yarn run rimraf dist",
     "build": "yarn run webpack",
